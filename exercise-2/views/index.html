@@ -1,0 +1,58 @@
+<!DOCTYPE html> 
+<html lang="se">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>JavaScript Extra Exercises</title>
+	<script src="../scripts/index.js"></script>
+</head>
+<body>
+
+	<h1 style= "text-align:center; color:rgb(10, 233, 48);">JavaScript Extra Exercises</h1>
+	<br>
+	<br>
+	<br>
+	<!--Exercise 1-->
+	<form name="form1">
+		<p>Enter a name:</p>
+		<input type="text" name="namebox" id="inputName">
+		<p>Enter a number:</p>
+		<input type="text" name="numberbox" id="inputNumber">
+		<br><br>
+		<input type="button" value="SUBMIT" onclick="showAlert()">
+	</form>
+	<br>
+	<br>
+	<br>
+	<!--Exercise 2-->
+	<div="buttons1">
+		<button type="button" style="background-color:green; color:white;" onmouseover="showPara1()" onmouseout="hidePara1()">BUTTON 1</button>
+		<p id="first" style="opacity: 0;">The first button is green.</p><!--opacity is added to hide the paragraph-->
+		<button type="button" style="background-color:blue; color:white;" onmouseover="showPara2()" onmouseout="hidePara2()">BUTTON 2</button>
+		<p id="second" style="opacity: 0;">The second button is blue.</p>
+		<button type="button" style="background-color:red; color:white;" onmouseover="showPara3()" onmouseout="hidePara3()">BUTTON 3</button>
+		<p id="third" style="opacity: 0;">The third button is red.</p>
+	</div>
+	<!--Exercise 3-->
+	<form name="form2">
+		<p>In which country do you live?:</p>
+		<input type="text" name="countrybox" id="inputCountry" onkeyup="capLetters()"> 
+	</form>
+	<br>
+	<br>
+	<br>
+	<!--Exercise 4-->
+	<form name="form3">
+		<p>Enter your first name:</p>
+		<input type="text" name="firstnamebox" id="inputFirstName">
+		<p>Enter your last name:</p>
+		<input type="text" name="lastnamebox" id="inputLastName">
+		<br><br>
+		<input type="button" value="SUBMIT" onclick="showInitials()">
+		<p>Your initials are:</p>	
+		<input type="text" name="initials">
+	</form>
+
+</body>
+</html>

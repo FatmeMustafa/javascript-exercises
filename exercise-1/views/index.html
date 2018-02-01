@@ -5,9 +5,55 @@
 	<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>JavaScript Syntax</title>
+	<script type="text/javascript" src="../scripts/index.js"></script>
 </head>
 <body>
-	<h1 style= "text-align:center; color:blue;">JavaScript Syntax Exercises</h1>	
-	<script type="text/javascript" src="scripts/index.js"></script>
+
+	<h1 style= "text-align:center; color:blue;">JavaScript Syntax Exercises</h1>
+	<br>
+	<br>
+	<br>
+	<!--Strech Exercise 1-->
+	<form name="form1">
+		<p>Enter a number:</p>
+		<input type="text" name="input2_number"><!--this does not work if type="number"-->
+		<input type="button" value="Calculate" onclick="doMath()"><!--onclick instructs the program to do the function doMath after the button is clicked-->
+		<p>The square root is:</p>
+		<input type="text" name="answer"><!--this is where the result will be displayed-->
+	</form>
+	<br>
+	<br>
+	<br>
+	<!--Exercise 4-->
+	<form name="form2">
+		<p>Enter first number:</p>
+		<input type="text" name="first_number">
+		<p>Enter last number:</p>
+		<input type="text" name="last_number">
+		<br><br>	
+		<input type="button" value="Submit" onclick="showLargest()">
+		<p>The largest number is:</p>	
+		<input type="text" name="largest">
+	</form>
+	<br>
+	<br>
+	<br>
+	<!--Strech Exercise 4-->
+	<form name="form3">
+		<p>Enter first number:</p>
+		<input type="text" name="first_numbers">
+		<p>Enter second number:</p>
+		<input type="text" name="second_numbers">
+		<p>Enter last number:</p>
+		<input type="text" name="last_numbers">
+		<br><br>	
+		<input type="button" value="Submit" onclick="showLargests()">
+		<p>The largest number is:</p>	
+		<input type="text" name="largests">
+	</form>
+	<br>
+	<br>
+	<br>
+
 </body>
 </html>
